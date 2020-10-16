@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <conio.h>
 
-int sqsum (int n)
+int sqsum (int n)   //Declaring first function
 {
     int r,s=0;
     while(n!=0)
@@ -12,7 +12,7 @@ int sqsum (int n)
     }
     return s;
 }
-int psqsum(int n)
+int psqsum(int n)    //Declaring second function
 {
     int r,s=0;
     while(n!=0)
@@ -30,7 +30,7 @@ int main()
     int num,sum,ch,n1,n2,i;
     printf("Select the method : 1.Easy 2.Medium 3.Hard\n");
     scanf("%d",&ch);
-    switch(ch)
+    switch(ch)       //Switch case starts
     {
         case 1 :
                 printf("Enter the number : ");
